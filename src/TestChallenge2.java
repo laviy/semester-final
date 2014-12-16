@@ -13,3 +13,23 @@ public class TestChallenge2 {
 	}
 
 }
+while(frontIsClear()) {
+         while(nextToABeeper()) {
+            pickBeeper();
+         }
+      move();
+      }
+      teleport(4, 5);
+      while(frontIsClear()) {
+         while(nextToABeeper()) {
+            pickBeeper();
+         }
+      move();
+      }
+      teleport(5, 5);
+      while(frontIsClear()) {
+         while(nextToABeeper()) {
+            pickBeeper();
+         }
+      move();
+      }
